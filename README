@@ -1,0 +1,6 @@
+ The assignment is to make a GET API that can check if an IMEI is correct or not. 
+ If it's correct, API should return it. If it's not correct, API should return a digit with which the given IMEI's last digit should be replaced to get a valid IMEI. 
+ This will check that if the entered number is a valid 15 digit number or not and will display an error message on the interface.
+ You may check the complete website from the link https://imeisearch.herokuapp.com
+ The website is deployed on heroku and is working well online.
+ I have used HTML,CSS,JavaScript,EJS,NodeJs,Express for the complete functionality of the website.

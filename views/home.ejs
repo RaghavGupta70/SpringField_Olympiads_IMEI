@@ -1,0 +1,20 @@
+<%- include("partials/header"); %> 
+
+   <div class="main">
+    <form class="" action="/IMEI" method="GET">
+        <div class="form-IMEI">
+          <label>IMEI No.</label>
+          <input class="form-control" type="text" name="imei_search" placeholder="IMEI Number" value="<%= imei %> " />
+          <div class="btn-IMEI">
+            <button type="submit" class="btn btn-success">Search IMEI</button> 
+          </div>
+        </div>
+    </form>
+</div>
+    <div class="errorM">
+        <h1><%= errorMessage %> </h1>
+    </div>
+
+        
+<%- include("partials/footer"); %> 
+        
